@@ -18,8 +18,11 @@ $ ruby app.rb
 Coller votre fichier .env avec vos ID :
 
 consumer_key="..."
+
 consumer_secret="..."
+
 access_token="..."
+
 access_token_secret="..."
 
 ### Arborescence :
