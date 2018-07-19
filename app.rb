@@ -11,7 +11,7 @@ require 'bundler'
 Bundler.require
 
 # Chemins
-require 'lib/scrapper'
+require 'lib/app/townhalls_scrapper'
 require 'lib/twitter'
 require 'lib/mailler'
 
