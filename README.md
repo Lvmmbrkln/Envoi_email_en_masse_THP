@@ -39,6 +39,7 @@ Envoi_email_en_masse_THP
     - index.rb
 
 ### Equipe :
+
 - Gwen
 - Nancy
 - Joanne
@@ -46,3 +47,7 @@ Envoi_email_en_masse_THP
 - Rid
 - Louis
 - Huguens
+
+### Description du projet :
+
+Nous avons décidé de sélectionner email et les twitters des mairies des départements Outre Mer de la Martinique, la Guyane et de La Réunion. Ils comptent à eux trois 80 mairies. Nous les avons follow avec le handle @Rubyaskip et envoyé un email de présentation de THP.
