@@ -44,7 +44,6 @@ class Mailer
 			name_town << towns_data[towns_data.keys[0]]
 			email_town << towns_data[towns_data.keys[1]]
 		end
-		puts email_town
 
 		x = 0
 		y = 0
