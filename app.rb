@@ -12,7 +12,7 @@ Bundler.require
 
 # Chemins
 require 'lib/app/townhalls_scrapper'
-require 'lib/twitter'
-require 'lib/mailler'
+require 'lib/app/Twitter/start_bot'
+require 'lib/app/mailler'
 
 MyClass.new.perform
