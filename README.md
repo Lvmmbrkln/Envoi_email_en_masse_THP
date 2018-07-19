@@ -41,3 +41,4 @@ Envoi_email_en_masse_THP
 - Jeremy
 - Rid
 - Louis
+- Huguens
