@@ -18,22 +18,18 @@ $ ruby app.rb
 
 Envoi_email_en_masse_THP 
 - .gitignore
-- .env (PAS SUR LE REPO GITHUB)
 - README.md
 - Gemfile
 - Gemfile.lock
-- app.rb
+- app.rb (JO)
 - db
-  - townhalls.csv
+  - townhalls.json
 - lib
   - app
     - townhalls_scrapper.rb
-    - townhalls_mailer.rb
-    - Twitter
-        - follow_twitter
-            - TBC
-        - scrapping_handles
-            - TBC
+    - townhalls_mailer.rb (LOUIS RID)
+    - Twitter (LES FILLES)
+        A compléter
   - views
     - done.rb
     - index.rb
@@ -45,3 +41,4 @@ Envoi_email_en_masse_THP
 - Jeremy
 - Rid
 - Louis
+- Huguens
