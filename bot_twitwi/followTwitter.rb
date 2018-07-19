@@ -24,6 +24,7 @@ class FollowTwitter
         tab_handle.each do |someone|
             @client.follow(someone.delete"@")
             puts "Follow réussi: #{someone}"
+            sleep 87
         end
     end
 end
