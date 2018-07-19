@@ -2,8 +2,15 @@
 
 ## Installations
 
+Installer tous les gem :
+
 ```sh
 $ bundle install
+```
+Lancer le programme :
+
+```sh
+$ ruby app.rb
 ```
     
 ### Arborescence :
