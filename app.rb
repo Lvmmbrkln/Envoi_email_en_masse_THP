@@ -5,7 +5,7 @@ require 'json'
 require 'pry'
 require "google_drive"
 require 'twitter'
-require 'json'
+require 'csv'
 
 require 'bundler'
 Bundler.require
