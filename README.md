@@ -19,12 +19,12 @@ Envoi_email_en_masse_THP :
 - app.rb
 - db
   - townhalls.csv
-  - lib
-    - app
-       - townhalls_scrapper.rb
-       - townhalls_mailer.rb
-       - townhalls_adder_to_db.rb
-       - townhalls_follower.rb
-    - views
-       - done.rb
-       - index.rb
+- lib
+  - app
+    - townhalls_scrapper.rb
+    - townhalls_mailer.rb
+    - townhalls_adder_to_db.rb
+    - townhalls_follower.rb
+  - views
+    - done.rb
+    - index.rb
