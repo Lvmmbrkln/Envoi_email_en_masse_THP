@@ -1,7 +1,7 @@
 require 'gmail'
 require 'json'
 
-class Overall
+class Mailer
 
 	attr_accessor :pseudo, :mdp
 
@@ -67,5 +67,5 @@ class Overall
 
 end
 
-all = Overall.new
+all = Mailer.new
 all.getting_data
