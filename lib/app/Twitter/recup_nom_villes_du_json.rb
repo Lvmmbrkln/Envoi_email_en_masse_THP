@@ -1,7 +1,6 @@
 #!/usr/bin/ruby
 require 'rubygems'
 require 'json'
-require 'pp'
 
 
 class RecupNameVille
