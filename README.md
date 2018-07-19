@@ -18,18 +18,17 @@ $ ruby app.rb
 
 Envoi_email_en_masse_THP 
 - .gitignore
-- .env (PAS SUR LE REPO GITHUB)
 - README.md
 - Gemfile
 - Gemfile.lock
-- app.rb
+- app.rb (JO)
 - db
-  - townhalls.csv
+  - townhalls.csv (JEREMIE)
 - lib
   - app
-    - townhalls_scrapper.rb
-    - townhalls_mailer.rb
-    - Twitter
+    - townhalls_scrapper.rb (JEREMIE)
+    - townhalls_mailer.rb (LOUIS RID)
+    - Twitter (LES FILLES)
         - follow_twitter
             - TBC
         - scrapping_handles
