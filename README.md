@@ -16,7 +16,7 @@ Envoi_email_en_masse_THP
 - Gemfile.lock
 - app.rb
 - db
-  - townhalls.csv
+  - townhalls.json
 - lib
   - app
     - townhalls_scrapper.rb
