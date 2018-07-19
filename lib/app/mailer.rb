@@ -41,8 +41,8 @@ class Mailer
 		email_town = []
 
 		data.each do |towns_data|
-			name_town << towns_data[towns_data[0]]
-			email_town << towns_data[towns_data[1]]
+			name_town << towns_data[towns_data.keys[0]]
+			email_town << towns_data[towns_data.keys[1]]
 		end
 		puts email_town
 
@@ -50,12 +50,12 @@ class Mailer
 		y = 0
 
 		while x < 80 && y < 80
-			each_email = email_town[x]
+			@each_email = email_town[x]
 			each_town_name = name_town[y]
 			message = "Bonjour, Je m'appelle #{@name}.<br><br><br>Je suis élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique. La pédagogie de notre école est celle du peer-learning, où nous travaillons par petits groupes sur des projets concrets qui font apprendre le code. Le projet du jour est d'envoyer (avec du codage) des emails aux mairies pour qu'ils nous aident à faire de The Hacking Project un nouveau format d'éducation pour tous.<br><br><br>Déjà 500 personnes sont passées par The Hacking Project.<br>Est-ce que la mairie de #{each_town_name} veut changer le monde avec nous?<br><br><br>Charles, co-fondateur de The Hacking Project pourra répondre à toutes vos questions : 06 95 46 60 80"
 
-			sending_emails(each_email, message)
-			puts "Email envoyé à #{each_email}."
+			sending_emails(@each_email, message)
+			puts "Email envoyé à #{@each_email}."
 
 			x = x + 1
 			y = y + 1

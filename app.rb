@@ -14,8 +14,3 @@ Bundler.require
 load 'lib/app/scrapper.rb'
 load 'lib/app/Tweets/twitters.rb'
 load 'lib/app/mailer.rb'
-
-# scrapper.new.perform
-mailer.new.perform
-# twitter.new.perform
-
