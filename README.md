@@ -2,15 +2,8 @@
 
 ## Installations
 
-Installer tous les gem :
-
 ```sh
 $ bundle install
-```
-Lancer le programme :
-
-```sh
-$ ruby app.rb
 ```
     
 ### Arborescence :
@@ -23,7 +16,7 @@ Envoi_email_en_masse_THP
 - Gemfile.lock
 - app.rb
 - db
-  - townhalls.json
+  - townhalls.csv
 - lib
   - app
     - townhalls_scrapper.rb
