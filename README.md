@@ -8,8 +8,8 @@ $ bundle install
 ```
     
 ### Arborescence :
-Envoi_email_en_masse_THP :
 
+Envoi_email_en_masse_THP 
 - .gitignore
 - .env (PAS SUR LE REPO GITHUB)
 - README.md
