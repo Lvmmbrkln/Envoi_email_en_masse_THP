@@ -1,7 +1,7 @@
-require "twitter"      #
+require "twitter"     #
 require "dotenv"      #
-Dotenv.load              #
-require "pry"          #
+Dotenv.load           #
+require "pry"         #
 require "google_drive"#
 #######################
 
