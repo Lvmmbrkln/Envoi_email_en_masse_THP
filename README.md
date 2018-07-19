@@ -1,13 +1,10 @@
 # Projet de groupe : Envoie d'email
 
-### Equipe :
-- Gwen
-- Nancy
-- Joanne
-- Jeremy
-- Rid
-- Louis
-
+## Installations
+    bundle install
+    
+    gem install twitter
+    
 ### Arborescence :
 Envoi_email_en_masse_THP :
 
@@ -28,3 +25,11 @@ Envoi_email_en_masse_THP :
   - views
     - done.rb
     - index.rb
+
+### Equipe :
+- Gwen
+- Nancy
+- Joanne
+- Jeremy
+- Rid
+- Louis
