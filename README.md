@@ -1,9 +1,11 @@
 # Projet de groupe : Envoie d'email
 
 ## Installations
-    bundle install
-    
-    gem install twitter
+
+```sh
+$ gem install twitter
+$ bundle install
+```
     
 ### Arborescence :
 Envoi_email_en_masse_THP :
