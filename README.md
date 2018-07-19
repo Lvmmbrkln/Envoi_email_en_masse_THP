@@ -28,8 +28,12 @@ Envoi_email_en_masse_THP
   - app
     - townhalls_scrapper.rb
     - townhalls_mailer.rb (LOUIS RID)
-    - Twitter (LES FILLES)
-        A compléter
+    - Twitter 
+        - choper_handles_sur_internet.rb
+        - enter_handles_in_json.rb
+        - follow_gens_sur_twitter.rb
+        - recup_nom_villes_du_json.rb
+        - start_bot.rb
   - views
     - done.rb
     - index.rb
