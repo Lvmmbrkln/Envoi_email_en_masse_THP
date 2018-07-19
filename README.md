@@ -54,7 +54,7 @@ Envoi_email_en_masse_THP
 - Gwen
 - Nancy
 - Joanne
-- Jeremy
+- Jérémie
 - Rid
 - Louis
 - Huguens
