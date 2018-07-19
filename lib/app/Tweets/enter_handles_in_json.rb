@@ -15,7 +15,7 @@ class EnterHandle
 
 	def recup_fichier
 		puts "je recup le fichier"
-		json = File.read('../../../db/townhalls.json')
+		json = File.read('db/townhalls.json')
 		obj = JSON.parse(json)
 		# POUR RECUPERER FICHIER DE BASE
 		obj.each do |info_ville|
@@ -33,7 +33,7 @@ class EnterHandle
 	end
 
 	def save_in_json(mon_hash)
-		File.open("../../../db/townhalls.json","w") do |file|
+		File.open("db/townhalls.json","w") do |file|
 			file.write(mon_hash.to_json)
 		end
 	end

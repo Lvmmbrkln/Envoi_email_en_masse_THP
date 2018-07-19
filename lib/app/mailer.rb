@@ -34,16 +34,17 @@ class Mailer
 
 	def getting_data
 
-		json_file = File.read('townhalls.json')
+		data = []
+		json_file = File.read('db/townhalls.json')
 		data = JSON.parse(json_file)
-
 		name_town = []
 		email_town = []
 
 		data.each do |towns_data|
-			name_town << towns_data[towns_data.keys[0]]
-			email_town << towns_data[towns_data.keys[1]]
+			name_town << towns_data[towns_data[0]]
+			email_town << towns_data[towns_data[1]]
 		end
+		puts email_town
 
 		x = 0
 		y = 0
@@ -54,7 +55,7 @@ class Mailer
 			message = "Bonjour, Je m'appelle #{@name}.<br><br><br>Je suis élève à The Hacking Project, une formation au code gratuite, sans locaux, sans sélection, sans restriction géographique. La pédagogie de notre école est celle du peer-learning, où nous travaillons par petits groupes sur des projets concrets qui font apprendre le code. Le projet du jour est d'envoyer (avec du codage) des emails aux mairies pour qu'ils nous aident à faire de The Hacking Project un nouveau format d'éducation pour tous.<br><br><br>Déjà 500 personnes sont passées par The Hacking Project.<br>Est-ce que la mairie de #{each_town_name} veut changer le monde avec nous?<br><br><br>Charles, co-fondateur de The Hacking Project pourra répondre à toutes vos questions : 06 95 46 60 80"
 
 			sending_emails(each_email, message)
-			puts "Email envovyé à #{each_email}."
+			puts "Email envoyé à #{each_email}."
 
 			x = x + 1
 			y = y + 1

@@ -13,7 +13,7 @@ class RecupNameVille
 
 	def recup_nom
 		# POUR LIRE LE FICHIER
-		json = File.read('../../../db/townhalls.json')
+		json = File.read('db/townhalls.json')
 		obj = JSON.parse(json)
 
 		# POUR RECUPERER CHAQUE NOM DU HASH DANS LE fichier .JSON

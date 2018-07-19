@@ -33,7 +33,12 @@ class Testy
 		# puts "ville == #{ville}"
 		
 		page = Nokogiri::HTML(open(lien))
-		handle = page.css('h3.r')[0].text.split('(')[1].split(')')[0]
+		begin
+			handle = page.css('h3.r')[0].text.split('(')[1].split(')')[0]
+		rescue NoMethodError => e
+			# puts e.message
+
+		end
 		return handle
 	end
 

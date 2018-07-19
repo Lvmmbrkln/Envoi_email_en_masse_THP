@@ -5,5 +5,4 @@ gem 'dotenv-rails', groups: [:development, :test]
 gem 'pry'
 gem 'nokogiri', '~> 1.8.4'
 gem 'google_drive'
-gem "twitter", github: 'sferik/twitter'
-gem "gmail", "~> 0.7.0"
+gem 'gmail', '~> 0.7.0'

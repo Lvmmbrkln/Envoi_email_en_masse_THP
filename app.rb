@@ -11,8 +11,11 @@ require 'bundler'
 Bundler.require
 
 # Chemins
-require 'lib/app/townhalls_scrapper'
-require 'lib/app/Twitter/start_bot'
-require 'lib/app/mailler'
+load 'lib/app/scrapper.rb'
+load 'lib/app/Tweets/twitters.rb'
+load 'lib/app/mailer.rb'
 
-MyClass.new.perform
+# scrapper.new.perform
+mailer.new.perform
+# twitter.new.perform
+
