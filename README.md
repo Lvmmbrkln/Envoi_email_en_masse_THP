@@ -27,7 +27,7 @@ Envoi_email_en_masse_THP
 - lib
   - app
     - townhalls_scrapper.rb
-    - townhalls_mailer.rb (LOUIS RID)
+    - townhalls_mailer.rb
     - Twitter 
         - choper_handles_sur_internet.rb
         - enter_handles_in_json.rb
