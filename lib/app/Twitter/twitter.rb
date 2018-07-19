@@ -3,7 +3,7 @@ load 'choper_handles_sur_internet.rb'
 load 'follow_gens_sur_twitter.rb'
 load 'enter_handles_in_json.rb'
 
-class GoBot
+class Twitter
 
 	def initialize
 	end
@@ -34,7 +34,7 @@ class GoBot
 end
 
 
-obj1 = GoBot.new
+obj1 = Twitter.new
 obj1.lancer_bot
 
 
