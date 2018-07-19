@@ -23,10 +23,8 @@ class FollowTwitter
     def follow(tab_handle)
         tab_handle.each do |someone|
             @client.follow(someone.delete"@")
+            puts "Follow réussi: #{someone}"
         end
     end
 end
 
-tab_handle = ["@ruby", "@gems", "@rails", "@AntoGriezmann", "@drose"]
-bot = FollowTwitter.new
-bot.follow(tab_handle)
