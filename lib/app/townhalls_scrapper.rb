@@ -49,7 +49,7 @@ end
 
 def save()
   puts @tab
-  File.open("townhalls.json","w") do |i|
+  File.open("db/townhalls.json","w") do |i| #a verifier
     i.write(@tab.to_json)
   end
 end
