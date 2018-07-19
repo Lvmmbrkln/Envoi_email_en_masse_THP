@@ -23,16 +23,13 @@ Envoi_email_en_masse_THP
 - Gemfile.lock
 - app.rb (JO)
 - db
-  - townhalls.csv (JEREMIE)
+  - townhalls.json
 - lib
   - app
-    - townhalls_scrapper.rb (JEREMIE)
+    - townhalls_scrapper.rb
     - townhalls_mailer.rb (LOUIS RID)
     - Twitter (LES FILLES)
-        - follow_twitter
-            - TBC
-        - scrapping_handles
-            - TBC
+        A compléter
   - views
     - done.rb
     - index.rb
