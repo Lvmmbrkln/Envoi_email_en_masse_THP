@@ -6,6 +6,7 @@ Istaller tous les gems :
 
 ```sh
 $ bundle install
+$ gem install twitter
 ```
 
 Lancer le programme :
@@ -13,7 +14,14 @@ Lancer le programme :
 ```sh
 $ ruby app.rb
 ```
-    
+
+Coller votre fichier .env avec vos ID :
+
+consumer_key="..."
+consumer_secret="..."
+access_token="..."
+access_token_secret="..."
+
 ### Arborescence :
 
 Envoi_email_en_masse_THP 
