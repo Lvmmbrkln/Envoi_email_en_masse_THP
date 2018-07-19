@@ -3,7 +3,6 @@
 ## Installations
 
 ```sh
-$ gem install twitter
 $ bundle install
 ```
     
@@ -22,8 +21,11 @@ Envoi_email_en_masse_THP
   - app
     - townhalls_scrapper.rb
     - townhalls_mailer.rb
-    - townhalls_adder_to_db.rb
-    - townhalls_follower.rb
+    - Twitter
+        - follow_twitter
+            - TBC
+        - scrapping_handles
+            - TBC
   - views
     - done.rb
     - index.rb
